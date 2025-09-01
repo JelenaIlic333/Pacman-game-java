@@ -12,19 +12,15 @@ A simple **Pac-Man game** implemented in **Java** using **Swing**.
 ## How to Run
 1. Download `pacman.jar` from the [Releases](https://github.com/JelenaIlic333/Pacman-game-java/releases) section.
 2. Make sure **Java 8 or newer** is installed on your computer.
-3. Open a terminal and run:
+3. Controls
+Arrow keys: Move Pac-Man (Up, Down, Left, Right)
+If all lives are lost, the game restarts automatically.
+4. Notes
+All images and resources are included in the JAR file.
+Score and lives are displayed at the top-left of the game window.
+4. Open a terminal and run:
 ```bash
 java -jar pacman.jar
 
-Controls
 
-Arrow keys: Move Pac-Man (Up, Down, Left, Right)
-
-If all lives are lost, the game restarts automatically.
-
-Notes
-
-All images and resources are included in the JAR file.
-
-Score and lives are displayed at the top-left of the game window.
 
