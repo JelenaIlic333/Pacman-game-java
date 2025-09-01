@@ -1,18 +1,30 @@
-## Getting Started
+# Pac-Man Java Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple **Pac-Man game** implemented in **Java** using **Swing**.
 
-## Folder Structure
+## Features
+- Move Pac-Man with arrow keys and avoid ghosts
+- Score system (+10 points per food)
+- Lives system (3 lives per game)
+- Custom board layout defined in code
+- Ghosts move randomly across the board
 
-The workspace contains two folders by default, where:
+## How to Run
+1. Download `pacman.jar` from the [Releases](https://github.com/JelenaIlic333/Pacman-game-java/releases) section.
+2. Make sure **Java 8 or newer** is installed on your computer.
+3. Open a terminal and run:
+```bash
+java -jar pacman.jar
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Controls
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Arrow keys: Move Pac-Man (Up, Down, Left, Right)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+If all lives are lost, the game restarts automatically.
 
-## Dependency Management
+Notes
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+All images and resources are included in the JAR file.
+
+Score and lives are displayed at the top-left of the game window.
+
